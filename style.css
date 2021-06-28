@@ -1,0 +1,7 @@
+.header{
+  border-top-width: 0;
+  border-style: dotted;
+  border-color: black;
+  border-width: 3px;
+  /* border-radius: 100%; */
+}

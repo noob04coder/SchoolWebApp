@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+<title>Menu Based Calculator</title>
+</head>
+<body>
+<script>
+x=parseInt(prompt("Enter 1 for addition program, 2 for subtraction program, 3 for multiplication program and 4 for division program:"))
+switch(x)
+//The switch case executes each one of the 4 programs separately based on the value of x and than asks the user to input the numbers they want to operate on.
+{
+//Addition
+case 1:
+alert("Enter 2 numbers for addition:")
+a=parseInt(prompt("Enter the first number:"))
+b=parseInt(prompt("Enter the second number:"))
+document.write(a+b)
+break;
+//Subtraction
+case 2:
+alert("Enter 2 numbers for subtraction(in 1st number-2nd number format):")
+a=parseInt(prompt("Enter the first number:"))
+b=parseInt(prompt("Enter the second number:"))
+document.write(a-b)
+break;
+//Multiplication
+case 3:
+alert("Enter 2 numbers for multiplication(in 1st number x 2nd number format):")
+a=parseInt(prompt("Enter the first number:"))
+b=parseInt(prompt("Enter the second number:"))
+document.write(a*b)
+break;
+//Division
+case 4:
+alert("Enter 2 numbers for division(in 1st number/2nd number format):")
+a=parseInt(prompt("Enter the first number:"))
+b=parseInt(prompt("Enter the second number:"))
+document.write(a/b)
+break;
+//Wrong input alert
+default:
+alert("Wrong choice entered")
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+<title>Quadratic Equation Roots Calculator</title>
+</head>
+<body>
+<script>
+a=parseInt(prompt("Enter the coefficient of x squared(for the general equation a(x^2) + bx + c = 0):"))
+b=parseInt(prompt("Enter the coefficient of x:"))
+c=parseInt(prompt("Enter the constant term:"))
+D=(b**2)-(4*a*c)
+//First, we calculate the discriminant of the quadratic equation in order to find out if it has real roots or not.
+if(D>0)
+//2 Real and Distinct Roots
+{
+x1=((-1*b)-((D)**0.5))/(2*a)
+x2=((-1*b)+((D)**0.5))/(2*a)
+document.write("The quadratic equation is: "+a+"x2"+" + "+b+"x"+" + "+c+"."+"<br>")
+document.write("The roots of quadratic equation are: "+(x1)+" and "+(x2)+".")
+}
+else if(D==0)
+//2 Real and Equal Roots
+{
+x1=(-1*b)/(2*a)
+document.write("The quadratic equation is: "+a+"x2"+" + "+b+"x"+" + "+c+"."+"<br>")
+document.write("This quadratic equation has only one root which is: "+(x1)+".")
+}
+else if(D<0)
+//No real solution, No imaginary roots displayed
+{
+document.write("The quadratic equation is: "+a+"x2"+" + "+b+"x"+" + "+c+"."+"<br>")
+document.write("This quadratic equation doesn't have real roots.")
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+<title>Star Sequence</title>
+</head>
+<body>
+<script>
+n=parseInt(prompt("Enter the number of terms for the series:"))
+//First, we ask the user how many terms of the sequence are to be displayed.
+for(i=1;i<=n;i++)
+{
+//The first for loop iterates the nested for loop and the break tag to separate each term of the series from the next.
+for(j=1;j<=i;j++)
+{
+//The nested for loop iterates to decide(based on the value of i) how many "*" symbols are to be displayed. Essentially, 2 series are running parallel to each other such that both are dependent on the value n.
+document.write("*")
+}
+document.write("<br>")
+}
+</script>
+</body>
+</html>

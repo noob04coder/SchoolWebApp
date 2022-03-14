@@ -6,3 +6,10 @@
   border-width: 5px;
   /* border-radius: 100%; */
 }
+.title{
+  text-align: center;
+  font-family: "Monsterrat"
+}
+.contact{
+  text-align: center;
+}

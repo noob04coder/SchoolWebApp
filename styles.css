@@ -19,5 +19,5 @@
 body {
  background-image: url("bgImage2.gif");
  background-position: center;
- background-repeat: cover;
+ background-repeat: repeat;
 }

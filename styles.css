@@ -25,3 +25,12 @@ body {
  background-position: center;
  background-repeat: repeat;
 }
+.title-btn {
+  text-align: center;
+  font-family: "Monsterrat";
+  color: green;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+}

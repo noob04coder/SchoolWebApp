@@ -14,3 +14,9 @@
 .contact {
   text-align: center;
 }
+
+body {
+ background-image: url(bgImage.gif");
+ background-position: center;
+ background-repeat: repeat;
+}

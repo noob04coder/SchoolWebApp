@@ -8,12 +8,13 @@
 }
 .title {
   text-align: center;
-  font-family: "Monsterrat";
-  color: green;
+  /* font-family: "Monsterrat"; */
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
  transform: translate(-50%, -50%);
+  background-color: black;
 }
 .contact {
   text-align: center;
@@ -27,8 +28,7 @@ body {
 }
 .title-btn {
   text-align: center;
-  font-family: "Monsterrat";
-  color: green;
+  /* font-family: "Monsterrat"; */
   position: absolute;
   top: 55%;
   left: 50%;

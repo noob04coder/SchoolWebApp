@@ -31,7 +31,7 @@ body {
   /* font-family: "Monsterrat"; */
   position: absolute;
   top: 60%;
-  left: 40%;
+  left: 35%;
  transform: translate(-50%, -50%);
 }
 .types-btn {
@@ -39,6 +39,6 @@ body {
   /* font-family: "Monsterrat"; */
   position: absolute;
   top: 60%;
-  left: 50%;
+  left: 65%;
  transform: translate(-50%, -50%);
 }

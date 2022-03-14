@@ -32,7 +32,8 @@ body {
   position: absolute;
   top: 60%;
   left: 35%;
- transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: black;
 }
 .types-btn {
     text-align: center;
@@ -40,5 +41,6 @@ body {
   position: absolute;
   top: 60%;
   left: 65%;
- transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: black;
 }

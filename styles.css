@@ -26,11 +26,19 @@ body {
  background-position: center;
  background-repeat: repeat;
 }
-.title-btn {
+.history-btn {
   text-align: center;
   /* font-family: "Monsterrat"; */
   position: absolute;
-  top: 55%;
+  top: 60%;
+  left: 40%;
+ transform: translate(-50%, -50%);
+}
+.types-btn {
+    text-align: center;
+  /* font-family: "Monsterrat"; */
+  position: absolute;
+  top: 60%;
   left: 50%;
  transform: translate(-50%, -50%);
 }

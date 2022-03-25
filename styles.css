@@ -1,3 +1,27 @@
+
+
+
+
+/* ------------------------------------tags-------------------------------------- */
+body {
+ background-image: url("bgImage2.gif");
+ background-position: center;
+ background-repeat: repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------class-------------------------------------- */
 .header {
   border-top-width: 0;
   border-style: none;
@@ -21,11 +45,6 @@
   font-family: "Monsterrat";
 }
 
-body {
- background-image: url("bgImage2.gif");
- background-position: center;
- background-repeat: repeat;
-}
 .history-btn {
   text-align: center;
   /* font-family: "Monsterrat"; */
@@ -42,5 +61,11 @@ body {
   top: 60%;
   left: 65%;
   transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+/* -------------------------------------ID--------------------------------------- */
+
+#black-bg{
   background-color: black;
 }

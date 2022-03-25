@@ -4,7 +4,7 @@
 
 /* ------------------------------------tags-------------------------------------- */
 body {
- background-image: url("bgImage2.gif");
+/*  background-image: url("bgImage2.gif"); */
  background-position: center;
  background-repeat: repeat;
 }
@@ -22,6 +22,12 @@ body {
 
 
 /* -----------------------------------class-------------------------------------- */
+.index-body {
+ background-image: url("bgImage2.gif");
+ background-position: center;
+ background-repeat: repeat;
+}
+
 .header {
   border-top-width: 0;
   border-style: none;

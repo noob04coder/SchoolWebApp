@@ -82,5 +82,11 @@ body {
 .about {
   text-align: center;
 }
+
+.nav-bar{
+  backgroud-color:black ;
+  border: 4px white;
+  border-style:none none solid none;
+}
 /* -------------------------------------ID--------------------------------------- */
 

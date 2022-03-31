@@ -75,10 +75,17 @@ body {
 
 .href-aboutUs{
   font-size: 2.5rem;
+  margin-left:0.5%;
 }
 
 .h1-aboutUs{
   font-size: 3.5rem;
+  margin-left:0.5%;
+}
+
+.href-footer{
+  opacity:40%;
+  margin-left:0.5%;
 }
 
 /* -------------------------------------ID--------------------------------------- */

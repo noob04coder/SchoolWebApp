@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <head>
 <title>Fibonacci Sequence</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<script>
-n=parseInt(prompt("Enter the number of terms for the fibonacci sequence:"));
-//Asks the use to input the number of terms they want to output in the fibonacci series.
-a=0;
-b=1;
-c=0;
-document.write("The number of terms is "+n+"."+"<br>")
-document.write("Fibonacci Series:"+"<br>");
-for(i=1;i<=n;i++)
-{
-document.write(a+"<br>");
-c=a+b;
-a=b;
-b=c;
-}
-//The for loop iterates upto the number of terms which is n.
-</script>
-  <nav class="navbar navbar-expand-lg navbar-dark nav-bar" style="background-color: black">
+<nav class="navbar navbar-expand-lg navbar-dark nav-bar" style="background-color: black">
     <a class="navbar-brand" href="index.html"><i class="fas fa-laptop-code"></i><b>Computers</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -42,5 +34,22 @@ b=c;
       </ul>
     </div>
   </nav>
+<script>
+n=parseInt(prompt("Enter the number of terms for the fibonacci sequence:"));
+//Asks the use to input the number of terms they want to output in the fibonacci series.
+a=0;
+b=1;
+c=0;
+document.write("The number of terms is "+n+"."+"<br>")
+document.write("Fibonacci Series:"+"<br>");
+for(i=1;i<=n;i++)
+{
+document.write(a+"<br>");
+c=a+b;
+a=b;
+b=c;
+}
+//The for loop iterates upto the number of terms which is n.
+</script>  
 </body>
 </html>

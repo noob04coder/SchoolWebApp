@@ -3,18 +3,7 @@
 <title>Income Tax Calculator</title>
 </head>
 <body>
-<script>
-x=parseInt(prompt("Enter your monthly salary to check for income tax:"))
-//First, we ask the user to enter their salary.
-if(x>=69000)
-document.write("Your income tax is 20% of your monthly salary or "+((20*x)/100)+"₹.")
-else if(x>=47500 && x<69000)
-document.write("Your income tax is 15% of your monthly salary or "+((15*x)/100)+"₹.")
-else if(x<47500)
-document.write("Your income tax is 10% of your monthly salary or "+((10*x)/100)+"₹.")
-//The if statements than check for which tax bracket does the user lie in and than tell them their income tax amount.
-</script>
-  <nav class="navbar navbar-expand-lg navbar-dark nav-bar" style="background-color: black">
+<nav class="navbar navbar-expand-lg navbar-dark nav-bar" style="background-color: black">
     <a class="navbar-brand" href="index.html"><i class="fas fa-laptop-code"></i><b>Computers</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -36,5 +25,16 @@ document.write("Your income tax is 10% of your monthly salary or "+((10*x)/100)+
       </ul>
     </div>
   </nav>
+<script>
+x=parseInt(prompt("Enter your monthly salary to check for income tax:"))
+//First, we ask the user to enter their salary.
+if(x>=69000)
+document.write("Your income tax is 20% of your monthly salary or "+((20*x)/100)+"₹.")
+else if(x>=47500 && x<69000)
+document.write("Your income tax is 15% of your monthly salary or "+((15*x)/100)+"₹.")
+else if(x<47500)
+document.write("Your income tax is 10% of your monthly salary or "+((10*x)/100)+"₹.")
+//The if statements than check for which tax bracket does the user lie in and than tell them their income tax amount.
+</script>  
 </body>
 </html>
